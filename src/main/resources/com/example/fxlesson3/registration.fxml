@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+<?import javafx.scene.text.Text?>
+
+<AnchorPane prefHeight="427.0" prefWidth="313.0" style="-fx-background-color: #338c9e;" xmlns="http://javafx.com/javafx/18" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.fxlesson3.RegistrationController">
+   <children>
+      <TextField id="nameTextField" layoutX="20.0" layoutY="93.0" prefHeight="26.0" prefWidth="275.0" promptText="enter name" />
+      <TextField id="surnameTextField" layoutX="20.0" layoutY="130.0" prefHeight="26.0" prefWidth="275.0" promptText="enter surname" />
+      <TextField id="groupTextField" layoutX="20.0" layoutY="166.0" prefHeight="26.0" prefWidth="275.0" promptText="enter group" />
+      <TextField id="classroomTextField" layoutX="20.0" layoutY="204.0" prefHeight="26.0" prefWidth="275.0" promptText="enter classroom" />
+      <TextField id="emailTextField" layoutX="20.0" layoutY="241.0" prefHeight="26.0" prefWidth="275.0" promptText="enter email" />
+      <TextField id="phoneTextField" layoutX="20.0" layoutY="278.0" prefHeight="26.0" prefWidth="275.0" promptText="enter phone number" />
+      <Button id="registrationButton" layoutX="65.0" layoutY="334.0" mnemonicParsing="false" onAction="#registerButtonclicked" prefHeight="26.0" prefWidth="197.0" style="-fx-background-color: #1900ff;" text="Registration" textFill="WHITE" />
+      <Text id="RegistrText" layoutX="88.0" layoutY="58.0" stroke="WHITE" strokeLineCap="BUTT" strokeType="OUTSIDE" strokeWidth="3.0" text="Registration page" textAlignment="CENTER" wrappingWidth="150.24534606933594">
+         <font>
+            <Font size="18.0" />
+         </font>
+      </Text>
+      <Button id="cancelButton" layoutX="65.0" layoutY="368.0" mnemonicParsing="false" onAction="#cancelButtonClicked" prefHeight="26.0" prefWidth="197.0" style="-fx-background-color: #1900ff;" text="Cancel" textFill="WHITE" />
+   </children>
+</AnchorPane>

@@ -12,7 +12,7 @@ import javafx.stage.Stage;
 
 import java.io.IOException;
 
-public class LoginController {
+    public class LoginController {
     @FXML
     Button loginButton, registrationButton;
 
